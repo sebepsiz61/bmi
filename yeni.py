@@ -10,7 +10,8 @@ pencere.minsize(width=300 , height=200)
 yazi = Label(text="Vücut Kitle İndex Hesaplama")
 yazi.config(bg="silver")
 yazi.config(fg="black")
-
+kg = Label(text="Kilonuzu Girin (kg)")
+uzun = Label(text="Boyunuzu Girim (cm)")
 boy1 = Entry(width=10)
 
 kilo1 = Entry(width=10)
@@ -56,7 +57,9 @@ buton.config(padx=10, pady=10)
 
 
 yazi.pack()
+uzun.pack()
 boy1.pack()
+kg.pack()
 kilo1.pack()
 buton.pack()
 
